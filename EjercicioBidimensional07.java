@@ -66,13 +66,13 @@ public class EjercicioBidimensional07 {
             for(x = 0; x < 5; x++) {
                 switch(cuadrante[x][y]) {
                     case VACIO:
-                    c = " ";
+                    c = "  ";
                     break;
                     case MINA:
                     c = "* ";
                     break;
                     case TESORO:
-                    c = "# ";
+                    c = "#  ";
                     break;
                     case INTENTO:
                     c = "x ";
